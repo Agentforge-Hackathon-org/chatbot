@@ -1,7 +1,8 @@
 import React from 'react'
 
 import { cn } from '@/lib/utils'
-import { ExternalLink } from '@/components/external-link'
+
+//footer currently not used, might be useful later
 
 export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
   return (
@@ -11,13 +12,6 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
         className
       )}
       {...props}
-    >
-      Open source AI chatbot built with{' '}
-      <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
-      <ExternalLink href="https://vercel.com/storage/kv">
-        Vercel KV
-      </ExternalLink>
-      .
-    </p>
+    ></p>
   )
 }
