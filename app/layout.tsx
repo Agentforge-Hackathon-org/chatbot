@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils'
 import { TailwindIndicator } from '@/components/tailwind-indicator'
 import { Providers } from '@/components/providers'
 import { Header } from '@/components/header'
+import Head from 'next/head'
 
 export const metadata: Metadata = {
   title: {
@@ -33,7 +34,9 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <Head>
+        <title>The Universe V1</title>
+      </Head>
       <body
         className={cn(
           'font-sans antialiased',

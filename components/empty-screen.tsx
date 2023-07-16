@@ -7,15 +7,15 @@ import { IconArrowRight } from '@/components/ui/icons'
 const exampleMessages = [
   {
     heading: 'Example Prompt 1',
-    message: `e1`
+    message: `What do puppies eat?`
   },
   {
     heading: 'Example Prompt 2',
-    message: 'e2'
+    message: 'How many strawberries can Patrick eat in a day?'
   },
   {
     heading: 'Example Prompt 3',
-    message: `e3`
+    message: `How to make girlfriend happy?`
   }
 ]
 
